@@ -15,20 +15,26 @@ These examples aim to teach the basic functions of the Pneuduino library.
 Pneuduino can interface with sensors to dynamically respond to user input and environmental changes.
 * [07 I2C Gesture Sensor](./GestureSensor)
 * [08 I2C Accelerometer and Gyroscope](./AccelerometerGyroscope)
-* [09 Serial IO with Computer](./SerialIO)
-* [10 Facial Recognition with Processing.org](./Processing)
+* [09 I2C Touch Sensor](./TouchSensor)
+* [10 I2C Heart Rate Sensor](./HeartRateSensor)
+* [11 Light Sensor](./LightSensor)
+* [12 Sound Sensor](./SoundSensor)
+* [13 Collision Sensor](./CollisionSensor)
+* [14 Piezo Vibration Sensor](./PiezoVibrationSensor)
+* [15 EMG Sensor](./EMGSensor)
+* [16 GSR Sensor](./GSRSensor)
+* [17 Serial IO with Computer](./SerialIO)
+* [18 Facial Recognition with Processing.org](./Processing)
 ### Pneumatic Logic and Circuits
 Pneumatic logic uses air pressure to convey information. Pneuduino can be programmed to emulate logic gates.
-* [11 NOT Gate](./NotGate)
-* [12 AND Gate](./AndGate)
-* [13 OR Gate](./OrGate)
-* [14 XOR Gate](./XorGate)
+* [19 NOT Gate](./NotGate)
+* [20 AND Gate](./AndGate)
+* [21 OR Gate](./OrGate)
+* [22 XOR Gate](./XorGate)
 ### Advanced Examples
 These examples combine multiple features and showcase more complex capabilities of Pneuduino.
-* [BlinkM LED Driver](./LED)
-* [Haptic](#haptic)</br>
-Haptic (vibration) feedback is usually done with rotating motors. However, it is possible to achieve a more natural effect by rapidly inflating and exhausting air.
-* [Wave](#wave)</br>
-In this example, we demonstrate how to inflate and deflate a row of inflatables in sequence. This style of motion can be applied to propel &quot;crawling&quot; pneumatic robots.
-* [Pressure Regulator v2](#pressure-regulator-v2)</br>
-In this example, we explore and implement the pressure regulation feature in the Pneuduino library.
+* [23 BlinkM LED Driver](./LED)
+* [24 Haptic (Vibration) Feedback](./Haptic)
+* [25 Wave](./Wave)
+* [26 Pressure Regulator v2](./PressureRegulator2)
+
